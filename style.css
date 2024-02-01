@@ -25,7 +25,7 @@
 }
 
 img{
-  width:106vh;
+  width:107vh;
   border-bottom-left-radius: 3rem;
   border-top-left-radius: 3rem;
 
@@ -64,8 +64,7 @@ p:first-child
   font-size: larger;
 }
 
-input, 
-select { 
+input { 
     width: 200px; 
     height: 25px; 
     margin: 2px; 
@@ -163,10 +162,11 @@ select {
   outline: 0;
 }
 
-input[type="text"], input[type="email"], input[type="password"]
+input[type="text"], input[type="email"], input[type="password"],input[type="tel"]
 {
 margin-top: 2rem;
 padding:0.2rem; 
+border: none;
 }
 
 span
@@ -212,7 +212,6 @@ padding:2rem;
   .legacy-form-row legend {
      margin-bottom: 1rem; 
      font-size: 1.3rem;
-     margin-left:14.5rem;
   
    
   }
@@ -238,6 +237,7 @@ padding:2rem;
     background-color: rgb(252, 218, 252);
     padding:1.1rem;
     border-radius: 5rem;
+    float:left;
 
   }
 
@@ -246,5 +246,17 @@ padding:2rem;
     background-color: rgb(251, 227, 251);
   }
 
+  a{
+    font-size:1.2rem;
+    margin-top:3.75rem;
+    text-decoration: none;
+    float:right;
+    margin-right:2rem;
+    color: rgb(56, 15, 56);
+  }
+
+  a:hover{
+   color: rgb(78, 19, 78);
+  }
 
  
