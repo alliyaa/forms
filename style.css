@@ -1,0 +1,137 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.main{
+  
+  background-color: white;
+  display: flex; 
+  flex-direction: row; 
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+ 
+}
+
+.empty{
+  width:43%;
+  margin-top: 3rem;
+  margin-bottom:3rem;
+  margin-left:3rem;
+
+}
+
+img{
+  width:100vh;
+  border-bottom-left-radius: 3rem;
+  border-top-left-radius: 3rem;
+
+}
+
+.form
+{
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+   width:59%;
+    background-color: rgb(176, 176, 214);
+    text-align: center; 
+    align-items: center;
+    font-size: 1.1rem;
+    padding-left:3rem ;
+    margin-top: 3rem;
+    margin-bottom:3.2rem;
+    margin-right:3rem;
+  
+
+}
+
+p{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+}
+
+p:first-child
+{
+  margin-top: 1.4rem;
+  text-align: center;
+}
+
+
+
+:focus {
+  outline: 0;
+}
+
+input[type="text"], input[type="email"],input[type="radio"]
+{
+margin-top: 2rem;
+padding:0.2rem;
+}
+
+span
+{
+color: red;
+
+}
+.wrapnumber
+{
+  padding: 2rem;
+}
+.wrapper1
+{
+
+padding:2rem;
+}
+.wrapper3
+{
+margin-left: 29px;
+padding-top: 4rem;
+padding-bottom: 4rem;
+}
+
+.wrapperfour
+{
+padding:2rem;
+
+}
+
+
+
+.legacy-form-row {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  
+  .legacy-form-row legend {
+    margin-bottom: 15px;
+  }
+  
+  .legacy-form-row .radio-label { 
+    border: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.2rem;
+    margin-bottom:0.1rem;
+  }
+
+
+ 
+
+  button
+  {
+    margin-top: 4rem;
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgb(243, 170, 243);
+    padding: 1rem;
+
+  }
+
+
+ 
