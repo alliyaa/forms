@@ -12,7 +12,7 @@
     <img src="/R.jpeg" alt="hi">
   </div>
     <form action="index.html" class="form" >
-      <p> Hi! Enter your details to sign up for your BooksR account <br> Required fields are marked <span> * </span>  </p>
+      <p> Hi! Enter your details to sign up for your BooksR account <br> Required fields are marked <span> * </span> </p>
     <div class="wrapper1">
     <label for="uname"> First name  <span> * </span> </label> 
     <label for="lname"> Last name  <span> * </span> </label> <br>  
@@ -28,11 +28,10 @@
      <div class="wrapper3">
       <label for="pass"> Password <span> * </span>  </label>
       <label for="passs1"> Confirm Password <span> * </span>  </label> <br>
-      <input type="password" id="pass" minlength="8" required>
-      <input type="pasword" id="pass1" minlength="8" required>
+      <input type="password" id="pass" minlength="8" placeholder="Ajanuary3" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$">
+      <input type="pasword" id="pass1" minlength="8" placeholder="Ajanuary3" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$">
      </div>
-<p> The password should be atleast 8 characters including <br> an uppercase letter, a number, and  
-  special character </p>
+     <p>The password should be atleast 8 characters including <br> an uppercase letter,a lower case letter, and a number  </p>
   
     <div class="wrapperfour">
     <fieldset class="legacy-form-row"> 
@@ -62,7 +61,7 @@
 
 
 
-<button type="submit"> Submit Form </button>
+<button type="submit"> Create Account </button>
 
     </form>
  
