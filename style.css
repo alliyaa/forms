@@ -97,7 +97,7 @@ input {
   margin-right: 5.5rem;
 
 } 
-/* 2 starts here */
+
 
 .wrapper2 :nth-child(1)
 {
@@ -157,10 +157,6 @@ input {
 
 
 
-
-:focus {
-  outline: 0;
-}
 
 input[type="text"], input[type="email"], input[type="password"],input[type="tel"]
 {
